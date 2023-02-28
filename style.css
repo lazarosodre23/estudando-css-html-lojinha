@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-decoration: none;  
+    margin-bottom: 40px;  
+}
+
+#header nav {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #FBFBFB;
+}
+
+#header nav img {
+    width: 140px;
+    margin-left: 15px;
+}
+ 
+#header #menu{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#header #menu .link {
+    font-family:'verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#header #menu .link:hover{
+    color: #254de0;;
+}
+
+#header nav form {
+    width: 300px;
+}
+
+#header nav form input {
+    width: 240px;
+    height: 35px;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+#header nav form button {
+    width: 60px;
+    height: 35px;
+    border-radius: 0 15px 15px 0;
+    margin-left: -5px;
+    background-color: #021041;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#header nav form button:hover{
+    background-color: #254de0;
+}
+
+#banner {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(/imagens_prototipo/jezael-melgoza-2xBb36ebevg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+#banner section img{
+    width: 750px;
+}
+
+#banner button {
+    border: none;
+}
+
+#banner .seta-direita{
+    width: 50px;
+    margin-left: 430px; 
+    cursor: pointer;
+}
+
+#banner .seta-esquerda{
+    width: 50px;
+    margin-right: 430px;
+    cursor: pointer;
+    
+}
+
+#loja {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+#loja .galeria{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.produto1 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+    
+}
+
+.produto2 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto3 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto4 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto5 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto6 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto7 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.produto8 {
+    width: 250px;
+    height: 200px;
+    margin: 30px 20px;
+}
+
+.galeria div h3 {
+    color:#021041;
+    font-size: bold;
+
+}
+
+.galeria div h3:hover {
+    color:#254de0;
+}
+
+#footer {
+    background-color: #021041;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    text-decoration: none;  
+     
+}
+
+#footer nav img {
+    width: 140px;
+}
+
+#rodape {
+    width: 80%;
+    color: rgb(182, 180, 180);
+    display: flex;
+    align-items: center; 
+    font-size: bold;
+     
+
+}
+
+#rodape div{
+    height: auto;
+    width: 280px;
+    height: 300px;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+#rodape div a{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
